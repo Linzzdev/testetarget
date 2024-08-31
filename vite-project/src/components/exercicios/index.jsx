@@ -143,7 +143,7 @@ export const Exercicios = () => {
             </div>
             <div className={styles.exercicio}>
                 <h2>Inverter String</h2>
-                <button onClick={inverterString}>Inverter String</button>
+                <button onClick={inverterString}>Inverter a String</button>
                 {stringInvertida && <p>String invertida: {stringInvertida}</p>}
             </div>
         </section>
